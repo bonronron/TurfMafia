@@ -1,0 +1,6 @@
+.hide {
+    display: none;
+    transition-property: display;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}

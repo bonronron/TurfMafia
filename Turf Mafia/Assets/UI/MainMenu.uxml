@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/mainMenu.uss?fileID=7433441132597879392&amp;guid=125f4f27b5970b447ad7827761d42bb3&amp;type=3#mainMenu" />
+    <ui:VisualElement name="root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: center; align-items: stretch; padding-left: 5%; padding-right: 5%; padding-top: 0; padding-bottom: 0;">
+        <ui:VisualElement name="PlayGroup" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); align-items: center;">
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="Play" />
+            <ui:VisualElement name="Difficulty" class="hide" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: center; justify-content: center; transition-property: display; transition-duration: 2s; transition-timing-function: ease; flex-wrap: wrap;">
+                <ui:Button text="Easy" display-tooltip-when-elided="true" name="Easy" style="font-size: 8px; width: 20%;" />
+                <ui:Button text="Normal" display-tooltip-when-elided="true" name="Normal" style="font-size: 8px; width: 20%;" />
+                <ui:Button text="Hard" display-tooltip-when-elided="true" name="Hard" style="font-size: 8px; width: 20%;" />
+                <ui:Button text="Extreme" display-tooltip-when-elided="true" name="Extreme" style="font-size: 8px; width: 20%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Button text="Exit" display-tooltip-when-elided="true" name="Exit" style="align-items: center; flex-shrink: 1;" />
+    </ui:VisualElement>
+</ui:UXML>
