@@ -8,7 +8,8 @@ Turf Mafia is an innovative location-based tower defense game that brings the ex
 ### Controls
 
 - To place towers: Select the tower from the build menu, click on the map to place a tower decoy, and confirm placement by clicking on the tower again. Rotate towers using the rotate button.
-- To shoot enemy turfs: Select the shoot button, then click on enemy turfs. Wait for cooldown to shoot again.
+- To shoot enemy turfs: Select the shoot button, then click on enemy turfs. Wait for cooldown to shoot again. If you are unable to shoot at a turf, you can move closer to the turf to be able to shoot it.
+  ![Enemy Turfs](/ReadMe%20Screenshots/EnemySpawners.png)
 - Look around: Use left/right arrows on the screen's edges to change camera view.
 
 ### Towers
